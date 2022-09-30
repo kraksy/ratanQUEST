@@ -554,7 +554,7 @@ def prolog():
 
 
         print("======================================================================================================================================")
-        print("ležíš na zemi tak dlouho , dokuď tě nesní divocí rataňi")
+        print("ležíš na zemi tak dlouho, dokuď tě nesní divocí rataňi")
         print("======================================================================================================================================")
 
         clear()
@@ -681,7 +681,7 @@ def ye():
     if fs6 == "1":
 
         print("======================================================================================================================================")
-        print("ty máš ale štěstní našel jsi nůž a vězeňský jumpsuit. vezmeš si tyto věci ?")
+        print("ty máš ale štěstní našel jsi nůž a vězeňský jumpsuit. vezmeš si tyto věci?")
         print("======================================================================================================================================")
 
         tm.sleep(1.0)
@@ -711,7 +711,7 @@ def ye():
         elif fs9 == "2":
 
             print("======================================================================================================================================")
-            print("vzal jsis pouze nůž a šel jsi o místnost dál")
+            print("vzal sis pouze nůž a šel jsi o místnost dál")
             print("======================================================================================================================================")
 
             tm.sleep(1.0)
@@ -741,7 +741,7 @@ def ye():
     if fs7 == "1":
 
         print("======================================================================================================================================")
-        print("našel jsi jídlo boužel je prošlé, pach toho shnnilého jídla tě vyhnal do další místnosti")
+        print("našel jsi jídlo, boužel je prošlé, pach toho shnnilého jídla tě vyhnal do další místnosti")
         print("======================================================================================================================================")
 
         tm.sleep(1.0)
@@ -822,7 +822,7 @@ def firstfight():
 
     print("======================================================================================================================================")
     print("1.vzít si trubku")
-    print("2.bojovat holíma rukama")
+    print("2.bojovat holýma rukama")
     print("======================================================================================================================================")
 
     fs5 = input("")
@@ -833,7 +833,7 @@ def firstfight():
         clear()
 
         print("======================================================================================================================================")
-        print("ovedlo se ti urvat trubku bohužel jsi si nevšiml že zeď ze které  trčí je nestabilní a byl jsi zasipán cihlama")
+        print("Povedlo se ti urvat trubku bohužel jsi si nevšiml, že zeď ze které trčí je nestabilní a byl jsi zasypán cihlama")
         print("======================================================================================================================================")
 
         tm.sleep(1.0)
@@ -861,7 +861,7 @@ def scnfight():
 
     if rd.random() < 40:
         print("======================================================================================================================================")
-        print("poté co jsi porazil dva zombie strážníky,ses ohlédl a viděl jsi zamčené dveře , dveře jsi odemkl a vešel jsi do chodby")
+        print("poté co jsi porazil dva zombie strážníky,ses ohlédl a viděl jsi zamčené dveře, dveře jsi odemkl a vešel jsi do chodby")
         print("======================================================================================================================================")
         ye2()
         tm.sleep(.0)
@@ -883,7 +883,7 @@ def scnfight2():
 
     if rd.random() < 50:
         print("======================================================================================================================================")
-        print("poté co jsi porazil dva zombie strážníky,ses ohlédl a viděl jsi zamčené dveře , dveře jsi odemkl a vešel jsi do chodby")
+        print("poté co jsi porazil dva zombie strážníky,ses ohlédl a viděl jsi zamčené dveře, dveře jsi odemkl a vešel jsi do chodby")
         print("======================================================================================================================================")
         ye2()
         tm.sleep(1.0)
@@ -1048,7 +1048,7 @@ def down():
         print("mighty rataň tě rožšlápl jako malinu, potřebuješ speciální reliku na poražení mighty rataňe")
         uluse()
     elif sword == True:
-        print("použil si sílu legendary rataň slayera a usekls každou končetinu rataňovi , tím vítežíš a to je vše pro tohle demo, zbytek hry je za pay wallou 30e")
+        print("použil si sílu legendary rataň slayera a usekls každou končetinu rataňovi, tím vítežíš a to je vše pro tohle demo, zbytek hry je za pay wallou 30e")
         print("tvoje postava byla poté zabita hordou hladových rataňů")
         uluse()
 
