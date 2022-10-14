@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="2">
+ <tileset firstgid="1" source="rata.tsx"/>
+ <tileset firstgid="2" source="FLOOR.tsx"/>
+ <layer id="5" name="floor" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMBKEb3r/miugKCaumqqqqqqq+Hv7eF3E=
+  </data>
+ </layer>
+ <layer id="6" name="walls" width="50" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztljkOACEMxML/P027HYfCYiJbSpsZKwVEiIhEtOS5RWa2HqxsPVjZerCyqR6rvSp53HojMz12c7L2n54/PE6jB4uvB+l/POKlrjtUuQe58wx6sKjiIUKlAzOXAG8=
+  </data>
+ </layer>
+ <objectgroup id="4" name="hero">
+  <object id="1" x="327.75" y="184.25"/>
+ </objectgroup>
+</map>
